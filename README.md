@@ -2,7 +2,7 @@
 
 This is a complete, real-world simulation lab designed to showcase endpoint lifecycle management using **Microsoft Endpoint Configuration Manager (SCCM)** and **Intune**, hosted entirely on a local lab using **VMware Workstation Pro**.
 
-> 📌 Goal: Build a TN visa–ready portfolio project for a U.S. IT Systems Administrator or Endpoint Engineer role.
+> 📌 Goal: IT Systems Administrator or Endpoint Engineer role.
 
 ---
 
