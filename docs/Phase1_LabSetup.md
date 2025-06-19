@@ -58,35 +58,5 @@ Set up a fully functional on-prem lab environment using VMware Workstation Pro t
   * ✅ Boot Image
   * ✅ Configuration Manager Console
 
----
 
-## 📸 Screenshot Placeholders
-
-> (*Replace these with actual screenshots in your `/screenshots` folder*)
-
-* `screenshots/lab-topology.png` — VMware network + VM layout
-* `screenshots/domain-setup.png` — AD/DNS installation
-* `screenshots/adk-install.png` — ADK + WinPE install confirmation
-* `screenshots/sql-config.png` — SQL instance + static port
-* `screenshots/sccm-prereq-check.png` — Passed all checks
-* `screenshots/sccm-install-complete.png` — Final wizard summary
-
----
-
-## 🧠 Notes & Gotchas
-
-* SCCM setup **will fail** if SQL runs under `NT SERVICE\MSSQLSERVER` — must be a valid domain/local user or `NETWORK SERVICE`
-* Ensure Win11 client has VMware tools and DNS points to `LAB-DC01`
-* Use `mshta.exe` with `runas` to launch `splash.hta` under correct permissions
-
----
-
-## ✅ Phase 1 Complete — What’s Next?
-
-Proceed to **Phase 2: Device Enrollment**
-
-* Configure discovery
-* Create boundaries and collections
-* Deploy SCCM client to WIN11-CLIENT01
-* Begin Intune and Azure AD setup
 
